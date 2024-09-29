@@ -1,0 +1,74 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url('https://ik.imagekit.io/4z8covdo9/Full%20stack/todolistbg.png?updatedAt=1700761069523');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display:block;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.todo-container {
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.todo-subtitle {
+    font-size: 1rem;
+    margin-bottom: 25px;
+    line-height: 1.4;
+}
+
+.todo-task h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.todo-description {
+    font-size: 0.9rem;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.start-btn {
+    background-color: orange;
+    color: white;
+    padding: 10px 35px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.start-btn:hover {
+    background-color: darkorange;
+}
+
+.skip-link {
+    color: white;
+    font-size: 0.9rem;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.skip-link:hover {
+    text-decoration: underline;
+}
